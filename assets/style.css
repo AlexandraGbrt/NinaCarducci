@@ -1,24 +1,23 @@
 html,
 body {
-	margin: 0;
-	padding: 0;
+	/* margin: 0;
+	padding: 0; */
 	overflow-x: hidden;
 }
 
 body {
-	width: 100%;
 	max-width: 1920px;
-	margin-inline: auto;
+	margin: auto;
 }
 
-.top-header,
+/* .top-header,
 #about,
 #contact,
 #services {
 	max-width: 1330px;
 	margin-inline: auto;
 	padding-inline: clamp(1rem, 5vw, 100px);
-}
+} */
 
 
 * {
@@ -33,7 +32,7 @@ body {
 	z-index: 1000;
 	display: flex;
 	justify-content: space-between;
-	/* padding-inline: 100px; */
+	padding-inline: 100px;
 	padding-block: 30px;
 	align-items: center;
 
@@ -46,8 +45,8 @@ body {
 .carousel {
 	max-width: 1330px;
 	max-height: 664px;
-	/* margin: auto; */
-	margin-inline: auto;
+	margin: auto;
+	/* margin-inline: auto; */
 }
 
 .carousel img {
@@ -79,7 +78,7 @@ body {
 #about {
 	display: flex;
 	background-color: #F6D2B8;
-	/* padding-inline: 100px; */
+	padding-inline: 100px;
 	padding-block: 100px;
 	position: relative;
 
@@ -229,7 +228,7 @@ h2 {
 }
 
 #services {
-	/* margin: auto; */
+	margin: auto;
 	background-color: #A8D5D8;
 	position: relative;
 
@@ -266,10 +265,10 @@ h2 {
 }
 
 #contact {
-	/* margin: auto; */
+	margin: auto;
 	background-color: #D8D3A8;
 	position: relative;
-	/* padding-inline: 100px; */
+	padding-inline: 100px;
 	padding-block: 100px;
 
 }
