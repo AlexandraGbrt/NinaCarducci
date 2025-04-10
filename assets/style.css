@@ -50,6 +50,11 @@ body {
 	margin-inline: auto;
 }
 
+.carousel img {
+	max-width: 1330px;
+	max-height: 664px;
+}
+
 
 .nav ul {
 	display: flex;
@@ -80,6 +85,8 @@ body {
 
 }
 
+
+
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -104,6 +111,11 @@ body {
 
 #about-me {
 	flex: 2
+}
+
+#about-me img {
+	max-width: 404px;
+	max-height: 404px;
 }
 
 .about-me__title {

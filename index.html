@@ -3,7 +3,13 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css"> -->
+	<link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style"
+		onload="this.onload=null;this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+	</noscript>
+
 	<link rel="stylesheet" href="./assets/style.min.css"> <!-- TODO ajouter .MIN -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -74,7 +80,7 @@
 
 		<section id="about">
 			<div class="picture left">
-				<img src="./assets/images/nina.webp" alt="Photographe Nina Carducci" loading="lazy">
+				<img src="./assets/images/nina.webp" alt="Photographe Nina Carducci"> <!-- pas de lazy loading ici -->
 			</div>
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</h2>
