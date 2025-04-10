@@ -729,6 +729,18 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.contact-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+	margin-top: 60px;
+}
+
+.contact-info a {
+	color: inherit;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex: 2;
